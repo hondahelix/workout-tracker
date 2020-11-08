@@ -2,6 +2,7 @@
 
 ## Description 
 
+This project was my first experience with MongoDB. As a developer, I worked on the backend, primarily the routes and the modules. The app tracks your exercises and puts them in an accessible format so that you can add activities to your workout and see your progression over time. The way this is done is by dynamically saving your training in the database through restful routes; whenever you submit a workout, it will keep it and so that you can add additional exercises that you have accomplished to the activity. On the dashboard page, all your workout data will be displayed in graphs and charts in order to track your progress.
 
 
 ## Table of Contents
@@ -16,13 +17,14 @@ The installation of this project is to click on the green code button in the top
 npm i 
 This should download express, morgan and mongoose. Then all that is left to do is run the command:
 node server.js 
-in the termnal and then go to the browser and type in http://localhost:3000. or see the deployed heroku link [heroku link]()
+in the termnal and then go to the browser and type in http://localhost:3000. or see the deployed heroku link [heroku link](https://blooming-reef-17110.herokuapp.com)
 
 
 ## Usage 
 
+The usage of this application is to keep track of what exercises you do in a given workout. The database has a mongoose schema that takes in the day you worked out, the total time, the number of sets, reps, and the cumulative total time and distance covered during the workout. The deployed link is viewable on Heroku in the link below.
 
-[heroku link]()
+[heroku link](https://blooming-reef-17110.herokuapp.com)
 
 
                             Demo
